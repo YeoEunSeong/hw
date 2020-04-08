@@ -4,9 +4,9 @@
 
 
 function printTime() {
-    if(index++>=3) clearInterval(id); 
+    if(count++>=3) clearInterval(id); 
     console.log("현재시간: " + new Date());
   }
 
-let index=1;
+let count=1;
 let id = setInterval(printTime, 1000);
